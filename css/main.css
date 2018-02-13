@@ -1,0 +1,38 @@
+/* Google fonts available:
+font-family: 'Vast Shadow', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Carter One', cursive
+*/
+
+body {
+    background-color: rgb(228, 208, 167);
+}
+
+#horsesLogo {
+    max-width: 100%;
+    height: auto;
+    width: 85%;
+} 
+
+h1 {
+    font-family: 'Caveat Brush', Arial, sans-serif;
+    font-size: 5.6rem;
+}
+
+.tagline {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: 'Caveat Brush', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.historic-images img {
+    max-width: 100%;
+    height: auto;
+    border: 3px inset #666;
+    background-color: #fff;
+    padding: 8px;
+}
