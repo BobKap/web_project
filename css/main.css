@@ -32,7 +32,12 @@ h2 {
 .historic-images img {
     max-width: 100%;
     height: auto;
-    border: 3px inset #666;
+    border: 2px inset rgb(160, 120, 41);
     background-color: #fff;
-    padding: 8px;
+    padding: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .5);
+}
+
+.button-documents {
+    background-color: blanchedalmond;
 }
