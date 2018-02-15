@@ -42,7 +42,7 @@
         <!-- Sub Headline -->
         <div class="row">
             <div class="col">
-                <h2 class="text-center">From Against the Law in the 1800's, to Triple Crown Winners</h2>
+                <h2 class="text-center">From outlawed in the 1800's, to Triple Crown Winners now.</h2>
             </div>
             <!-- close col-->
         </div>
@@ -53,14 +53,18 @@
             <div class="col-6 historic-images">
                 <figure class="figure">
                     <img src="img/1852HorseracingIndictment.jpg" class="figure-img img-fluid" id="indictment" alt="1852 Indictment" title="1852 indictment for horseracing in the streets.">
-                    <figcaption class="figure-caption text-center">1852 indictment for horse racing in the streets of Vevay, Indiana. <button class="button-documents" id="indictment">View Indictment Content</button></figcaption>
+                    <figcaption class="figure-caption text-center">1852 indictment for horse racing in the streets of Vevay, Indiana.
+                        <button class="button-documents" id="indictment" data-toggle="modal" data-target="#indictmentModal">View Indictment Content</button>
+                    </figcaption>
                 </figure>
-               
+
                 <br>
 
                 <figure class="figure">
                     <img src="img/1852ArrestWarrant.jpg" class="figure-img img-fluid" id="arrestWarrant" alt="1852 Arrest Warrant" title="1852 arrest warrant for horseracing in the streets.">
-                    <figcaption class="figure-caption text-center">1852 arrest warrant for horse racing in the streets of Vevay, Indiana.<button class="button-documents" id="warrant">View Warrant Content</button></figcaption>
+                    <figcaption class="figure-caption text-center">1852 arrest warrant for horse racing in the streets of Vevay, Indiana.
+                        <button class="button-documents" id="warrant">View Warrant Content</button>
+                    </figcaption>
                 </figure>
 
 
@@ -89,11 +93,53 @@
         <!-- Footer -->
         <div class="row">
             [Footer goes here.]
+
         </div>
         <!-- /Footer -->
 
     </div>
-    <!-- close container -->
+    <!-- /container -->
+
+    <!-- =======================================================================
+                          INDICTMENT MODAL FORM STARTS HERE
+     ===========================================================================-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="indictmentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="img/1852HorseracingIndictment.jpg" class="figure-img img-fluid">
+                    <!--id="indictment" alt="1852 Indictment" title="1852 indictment for horseracing in the streets."> -->
+                    <br>
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        The State of Indiana, Switzerland County, ss, In the Switzerland Circuit Court of
+                        the term of November in the year of our Lord one thousand eight hundred and fifty-two. The Grand
+                        Jurrors empannelled and sworn in the Switzerland Circuit Court to inquire in and for the body of
+                        the County Switzerland upon their oath present: That Charles R Robinson on the twelfth day of October
+                        in the year of our Lord one thousand eight hundred and fifty-two at the county of Switzerland aforesaid,
+                        then and there did knowinly and wilfully one horse, did knowingly ride and run what is commonly called
+                        a horse race along the public highway in the town of Florence, Switzerland County in the State of
+                        Indiana. Contrary to the form of the statute in such cases made and provided, and against the peace
+                        and dignity of the State of Indiana. (signed) R. P. Moore Pros. Atty.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/MODAL FORM-->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

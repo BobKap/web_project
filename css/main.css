@@ -15,7 +15,7 @@ body {
     width: 85%;
 } 
 
-h1 {
+h1, h2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 5.6rem;
 }
@@ -24,7 +24,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-h2 {
+ h2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
 }
@@ -38,6 +38,7 @@ h2 {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, .5);
 }
 
-.button-documents {
+.button-documents, .modal-body {
     background-color: blanchedalmond;
 }
+
