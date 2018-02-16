@@ -17,7 +17,7 @@ body {
 
 h1, h2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
-    font-size: 5.6rem;
+    font-size: 5.5rem;
 }
 
 .tagline {
@@ -29,16 +29,30 @@ h1, h2 {
     font-size: 3rem;
 }
 
+/*.banner {
+    position: fixed;
+    z-index: 1;
+
+}
+*/
 .historic-images img {
     max-width: 100%;
     height: auto;
     border: 2px inset rgb(160, 120, 41);
     background-color: #fff;
-    padding: 5px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, .5);
+    padding: 5px;       
+    box-shadow: 2px 5px rgba(0, 0, 0, .5);
 }
 
-.button-documents, .modal-body {
+.button-documents  {
     background-color: blanchedalmond;
+    border: 1px solid rgb(99, 61,4);
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(99, 61, 4, 0.6); 
 }
+
+    .modal-body {
+        background-color: blanchedalmond;
+    }
 
