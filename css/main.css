@@ -41,7 +41,7 @@ h1, h2 {
     border: 2px inset rgb(160, 120, 41);
     background-color: #fff;
     padding: 5px;       
-    box-shadow: 2px 5px rgba(0, 0, 0, .5);
+    box-shadow: 2px 5px 5PX rgba(0, 0, 0, .5);
 }
 
 .button-documents  {
@@ -56,3 +56,15 @@ h1, h2 {
         background-color: blanchedalmond;
     }
 
+/* Start Documents Contents */
+.indictment p {
+    text-indent: 2.5rem;
+    margin: 20px;
+}
+
+/*.moore-sig {
+    text-align: right;
+}*/
+
+
+/* End Documents Contents */
