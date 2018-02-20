@@ -5,14 +5,23 @@ font-family: 'Caveat Brush', cursive;
 font-family: 'Carter One', cursive
 */
 
-body {
+body  {
     background-color: rgb(228, 208, 167);
-}
+  }
+
+
+
+
+  .nav-link {
+      color: black;
+      font-size: 1.25rem;
+  }
+
 
 #horsesLogo {
     max-width: 100%;
     height: auto;
-    width: 85%;
+    width: 95%;
 } 
 
 h1, h2 {
@@ -29,12 +38,6 @@ h1, h2 {
     font-size: 3rem;
 }
 
-/*.banner {
-    position: fixed;
-    z-index: 1;
-
-}
-*/
 .historic-images img {
     max-width: 100%;
     height: auto;
@@ -52,7 +55,7 @@ h1, h2 {
     box-shadow: 0 0 20px rgba(99, 61, 4, 0.6); 
 }
 
-    .modal-body {
+.modal-body, .navbar {
         background-color: blanchedalmond;
     }
 
@@ -62,9 +65,3 @@ h1, h2 {
     margin: 20px;
 }
 
-/*.moore-sig {
-    text-align: right;
-}*/
-
-
-/* End Documents Contents */
