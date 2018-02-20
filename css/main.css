@@ -63,7 +63,7 @@ color: blanchedalmond;
     }
 
 /* Start Documents Contents */
-.indictment p {
+.indictment p, .warrant p {
     text-indent: 2.5rem;
     margin: 20px;
 }
