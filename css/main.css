@@ -9,14 +9,10 @@ body  {
     background-color: rgb(228, 208, 167);
   }
 
-
-
-
   .nav-link {
       color: black;
       font-size: 1.25rem;
   }
-
 
 #horsesLogo {
     max-width: 100%;
@@ -53,6 +49,13 @@ h1, h2 {
     border-radius: 5px;
     margin-top: 20px;
     box-shadow: 0 0 20px rgba(99, 61, 4, 0.6); 
+}
+
+.btn-search {
+background-color: rgb(99, 61, 4);
+color: blanchedalmond;
+
+
 }
 
 .modal-body, .navbar {
