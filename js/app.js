@@ -9,7 +9,7 @@ $(document).ready(function() {
         hide: 'explode'
     }); // end PopUp dialog
 
-    $('.nav-item').click(function(evt) {
+    $('.nav-link, .btn-search').click(function(evt) {
         evt.preventDefault();
         $('#navPopUp').dialog('open');
     }); //end click
