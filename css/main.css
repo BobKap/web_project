@@ -5,20 +5,20 @@ font-family: 'Caveat Brush', cursive;
 font-family: 'Carter One', cursive
 */
 
-body  {
+body {
     background-color: rgb(228, 208, 167);
-  }
+}
 
-  .nav-link {
-      color: black;
-      font-size: 1.25rem;
-  }
+.nav-link {
+    color: black;
+    font-size: 1.25rem;
+}
 
 #horsesLogo {
     max-width: 100%;
     height: auto;
     width: 95%;
-} 
+}
 
 h1, h2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
@@ -29,7 +29,7 @@ h1, h2 {
     font-size: 1.5rem;
 }
 
- h2 {
+h2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
 }
@@ -39,28 +39,27 @@ h1, h2 {
     height: auto;
     border: 2px inset rgb(160, 120, 41);
     background-color: #fff;
-    padding: 5px;       
+    padding: 5px;
     box-shadow: 2px 5px 5PX rgba(0, 0, 0, .5);
 }
 
-.button-documents  {
+.button-documents {
     background-color: blanchedalmond;
-    border: 1px solid rgb(99, 61,4);
+    border: 1px solid rgb(99, 61, 4);
     border-radius: 5px;
     margin-top: 20px;
-    box-shadow: 0 0 20px rgba(99, 61, 4, 0.6); 
+    box-shadow: 0 0 20px rgba(99, 61, 4, 0.6);
 }
 
 .btn-search {
-background-color: rgb(99, 61, 4);
-color: blanchedalmond;
+    background-color: rgb(99, 61, 4);
+    color: blanchedalmond;
 }
 
 .modal-body, .navbar {
-        background-color: blanchedalmond;
-    }
+    background-color: blanchedalmond;
+}
 
-/* Start Documents Contents */
 .indictment p, .warrant p, .theHistory p {
     text-indent: 2.5rem;
     margin: 20px;
@@ -68,9 +67,8 @@ color: blanchedalmond;
 
 .theHistory p::first-letter {
     font-size: 1.4rem;
-  }
-
-.container {
-   max-width: 1350px;
 }
 
+.container {
+    max-width: 1350px;
+}
