@@ -54,8 +54,6 @@ h1, h2 {
 .btn-search {
 background-color: rgb(99, 61, 4);
 color: blanchedalmond;
-
-
 }
 
 .modal-body, .navbar {
@@ -63,8 +61,16 @@ color: blanchedalmond;
     }
 
 /* Start Documents Contents */
-.indictment p, .warrant p {
+.indictment p, .warrant p, .theHistory p {
     text-indent: 2.5rem;
     margin: 20px;
+}
+
+.theHistory p::first-letter {
+    font-size: 1.4rem;
+  }
+
+.container {
+   max-width: 1350px;
 }
 
