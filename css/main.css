@@ -59,6 +59,10 @@ h2 {
     background-color: rgb(99, 61, 4);
     color: blanchedalmond;
 }
+.btn-nav:hover {
+    background-color: blanchedalmond;
+    color:  rgb(99, 61, 4);
+}
 
 
 .modal-body, .nav, #navPopUp {
@@ -84,4 +88,16 @@ h2 {
     font-size: 1.75rem;
     line-height: 1.7rem;
     padding-top: 9px;
+}
+
+/* Control the size of the div holding derby program cover 
+.programs {
+    height:50px;
+    width: 50px;
+} */
+
+/* rules required by Bootstrap to make image fluid */
+.derby-trophy {
+    max-width: 100%;
+    height: auto;
 }

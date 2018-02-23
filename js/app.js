@@ -14,10 +14,6 @@ $(document).ready(function () {
         $('#navPopUp').dialog('open');
     }); //end nav buttons click event
 
-    // $('btn-nav').mouseover(function () {
-    //     background-color: rgb(99, 61, 4);
-    // });
-
 
 });  // end ready
 
