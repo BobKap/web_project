@@ -6,13 +6,18 @@ $(document).ready(function () {
         draggable: false,
         resizable: false,
         modal: true,
-        hide: 'explode'
+        hide: 'drop'
     }); // end PopUp dialog definition
 
     $('.nav-link, .btn-search').click(function (evt) {
         evt.preventDefault();
         $('#navPopUp').dialog('open');
-    }); //end click event
+    }); //end nav buttons click event
+
+    // $('btn-nav').mouseover(function () {
+    //     background-color: rgb(99, 61, 4);
+    // });
+
 
 });  // end ready
 
