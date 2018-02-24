@@ -29,6 +29,10 @@ h1, h2 {
     font-size: 1.5rem;
 }
 
+.nav {
+    border-radius: 1rem;
+}
+
 h2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
@@ -51,25 +55,36 @@ h2 {
     box-shadow: 0 0 20px rgba(99, 61, 4, 0.6);
     font-family: Arial;
     font-size: 1rem;
-    
-    
+}
+
+.button-documents:hover {
+    cursor: pointer;
 }
 
 .btn-nav {
     background-color: rgb(99, 61, 4);
     color: blanchedalmond;
 }
-.btn-nav:hover {
-    background-color: blanchedalmond;
+
+.btn-nav:hover,
+.nav-link:hover {
+    background-color: rgb(230, 192, 136);
     color:  rgb(99, 61, 4);
 }
 
 
-.modal-body, .nav, #navPopUp {
+.modal-body,
+.nav,
+#navPopUp,
+.footer
+ {
     background-color: blanchedalmond;
 }
 
-.indictment p, .warrant p, .theHistory p {
+.indictment p,
+.warrant p,
+.theHistory p,
+#navPopUp p {
     text-indent: 2.5rem;
     margin: 20px;
 }
@@ -101,3 +116,18 @@ h2 {
     max-width: 100%;
     height: auto;
 }
+
+.footer {
+    width: 100%;
+}
+
+/* To enforce the sticky footer
+.wrap{
+    min-height: calc(100vh-INSERT HEIGHT OF FOOTER HERE);
+} */
+
+/* .footer-img {
+    width: 6rem;
+    height: 12rem;
+} */
+

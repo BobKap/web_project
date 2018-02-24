@@ -24,10 +24,11 @@
 </head>
 
 <body>
-    <!-- navbar -->
+
     <div class="container">
-        <nav class="nav flex-column flex-sm-row justify-content-center mt-4 ">
-            <a class="flex-sm-fill text-sm-center nav-link active " href="#">Home</a>
+        <!-- navbar -->
+        <nav class="nav flex-column flex-sm-row justify-content-center mt-4 py-2 ">
+            <a class="flex-sm-fill text-sm-center nav-link " href="#">Home</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="#">Weather for your Track</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="#">Horseracing Trivia Test</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="#">About</a>
@@ -41,11 +42,12 @@
     <!-- /navbar -->
 
     <div class="container">
+        <!-- start banner -->
         <div class="row banner">
             <div class="col-4">
                 <img src="img/ClearHorseHeads.png" class="img-fluid mt-4" id="horsesLogo" alt="Horse heads" title="Horse heads">
             </div>
-            <!-- close banner col -->
+            <!-- / logo col -->
 
             <div class="col-8">
                 <h1 class="mt-4">Horse Racing History</h1>
@@ -53,7 +55,7 @@
             </div>
             <!-- close h1 & tagline col -->
         </div>
-        <!-- close logo, headline, & tagline row -->
+        <!-- / banner, logo, headline, & tagline row -->
 
         <!-- Sub Headline -->
         <div class="row sub-headline">
@@ -62,9 +64,9 @@
             </div>
             <!-- close  sub-headline col-->
         </div>
-        <!-- /Sub Headline -->
+        <!-- / sub-headline row -->
 
-        <!-- Documents, Latin, and Photos -->
+        <!-- Documents, Latin history, and Photos -->
         <div class="row">
             <div class="col-3 historic-images">
                 <figure class="figure mb-5">
@@ -74,7 +76,7 @@
                         <button class="button-documents" id="indictment" data-toggle="modal" data-target="#indictmentModal">View Indictment Content</button>
                     </figcaption>
                 </figure>
-                <!-- /top figure -->
+                <!-- /top figure indictment -->
 
                 <br>
 
@@ -85,18 +87,19 @@
                         <button class="button-documents" id="warrant" data-toggle="modal" data-target="#warrantModal">View Warrant Content</button>
                     </figcaption>
                 </figure>
-                <!-- /second figure -->
+                <!-- /second figure warrant -->
 
                 <div class="program container">
                     <figure class="figure text-center">
                         <img src="img/SmallerGenuineRiskDerbyCvr.jpg" class="figure-img derby-trophy img-fluid" alt="Kentucky Derby Trophy" Title="Kentucky Derby Trophy.">
-                        <figcaption class="figure-caption text-center">The <br>Kentucky Derby Trophy</figcaption>
+                        <figcaption class="figure-caption text-center">The
+                            <br>Kentucky Derby Trophy</figcaption>
                     </figure>
                 </div>
                 <!-- / trophy program -->
 
             </div>
-            <!-- /historic col -->
+            <!-- /historic documents col -->
 
             <!-- latin History text -->
             <div class="col-4 theHistory">
@@ -130,13 +133,13 @@
                 <p>
                     In in tempor enim. Quisque non vulputate nisi. Proin diam est, laoreet at vehicula ut, volutpat in tortor. Etiam rutrum erat
                     nec ante elementum tristique. Morbi viverra, velit sed hendrerit viverra, ipsum dui hendrerit eros, ut
-                    aliquet orci metus. In in tempor enim. Quisque non vulputate nisi. 
+                    aliquet orci metus. In in tempor enim. Quisque non vulputate nisi.
                 </p>
 
             </div>
-            <!-- /latin History text -->
+            <!-- /latin History col -->
 
-            <!-- Triple Crown winners -->
+            <!-- Triple Crown winners photos -->
             <div class="col-5">
                 <figure class="figure  historic-images mb-5">
                     <img src="img/WhirlawayForWebProject.jpg" class="figure-img img-fluid" id="whirlaway" alt="whirlaway" title="1941 Triple Crown winner Whirlaway in the Kentucky Derby winner's circle.">
@@ -148,149 +151,197 @@
                     <figcaption class="figure-caption text-center">1973 Triple Crown Winner Secretariat in the Kentucky Derby winner's circle.</figcaption>
                 </figure>
             </div>
-
-            <!-- Footer -->
-
-            <!-- /Footer -->
+            <!-- /Triple Crown winners photos -->
 
         </div>
-        <!-- /container -->
+        <!-- Documents, Latin history, and Photos row -->
 
-        <!-- =======================================================================
+    </div>
+    </div>
+    <!-- close main, overall container" -->
+
+
+
+
+    <!-- =======================================================================
                           INDICTMENT MODAL FORM STARTS HERE
      ===========================================================================-->
+    <div class="modal fade" id="indictmentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
+                <div class="modal-header">
 
-
-        <!-- Modal -->
-        <div class="modal fade" id="indictmentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-
-                    <div class="modal-header">
-
-                        <img src="img/1852HorseracingIndictment.jpg" class="figure-img img-fluid">
-                        <!--id="indictment" alt="1852 Indictment" title="1852 indictment for horseracing in the streets."> -->
-                        <br>
-                        <h5 class="modal-title" id="exampleModalLabel"></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                    <img src="img/1852HorseracingIndictment.jpg" class="figure-img img-fluid">
+                    <!--id="indictment" alt="1852 Indictment" title="1852 indictment for horseracing in the streets."> -->
+                    <br>
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="indictment">
+                        <p>The State of Indiana, Switzerland County, ss,
+                        </p>
+                        <p>
+                            In the Switzerland Circuit Court of the term of November in the year of our Lord one thousand eight hundred and fifty-two.
+                        </p>
+                        <p> The Grand Jurrors empannelled and sworn in the Switzerland Circuit Court to inquire in and for the
+                            body of the County Switzerland upon their oath present:
+                        </p>
+                        <p> That Charles R Robinson on the twelfth day of October in the year of our Lord one thousand eight
+                            hundred and fifty-two at the county of Switzerland aforesaid, then and there did knowingly and
+                            wilfully one horse, did knowingly ride and run what is commonly called a horse race along the
+                            public highway in the town of Florence, Switzerland County in the State of Indiana.
+                        </p>
+                        <p>Contrary to the form of the statute in such cases made and provided, and against the peace and dignity
+                            of the State of Indiana.
+                        </p>
+                        <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp R. P. Moore Pros. Atty.
+                        </p>
                     </div>
-                    <div class="modal-body">
-                        <div class="indictment">
-                            <p>The State of Indiana, Switzerland County, ss,
-                            </p>
-                            <p>
-                                In the Switzerland Circuit Court of the term of November in the year of our Lord one thousand eight hundred and fifty-two.
-                            </p>
-                            <p> The Grand Jurrors empannelled and sworn in the Switzerland Circuit Court to inquire in and for
-                                the body of the County Switzerland upon their oath present:
-                            </p>
-                            <p> That Charles R Robinson on the twelfth day of October in the year of our Lord one thousand eight
-                                hundred and fifty-two at the county of Switzerland aforesaid, then and there did knowingly
-                                and wilfully one horse, did knowingly ride and run what is commonly called a horse race along
-                                the public highway in the town of Florence, Switzerland County in the State of Indiana.
-                            </p>
-                            <p>Contrary to the form of the statute in such cases made and provided, and against the peace and
-                                dignity of the State of Indiana.
-                            </p>
-                            <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp R. P. Moore Pros. Atty.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- =======================================================================
+    <!-- =======================================================================
                           INDICTMENT MODAL FORM ENDS HERE
                 ===========================================================================-->
 
-        <!-- =======================================================================
+    <!-- =======================================================================
                           ARREST WARRANT MODAL FORM STARTS HERE
                 ===========================================================================-->
-        <div class="modal fade" id="warrantModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
+    <div class="modal fade" id="warrantModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
-                    <div class="modal-header">
+                <div class="modal-header">
 
-                        <img src="img/1852ArrestWarrant.jpg" class="figure-img img-fluid">
-                        <!--id="indictment" alt="1852 Indictment" title="1852 indictment for horseracing in the streets."> -->
-                        <br>
-                        <h5 class="modal-title" id="exampleModalLabel"></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="warrant">
-                            <p> The State of Indiana, Switzerland County, ss THE STATE OF INDIANA, TO THE SHERIFF OF SAID COUNTY,
-                                GREETING:
-                            </p>
-                            <p>WE COMMAND YOU, That you take into your custody the body of Charles R. Robinson.
-                            </p>
+                    <img src="img/1852ArrestWarrant.jpg" class="figure-img img-fluid">
+                    <br>
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="warrant">
+                        <p> The State of Indiana, Switzerland County, ss THE STATE OF INDIANA, TO THE SHERIFF OF SAID COUNTY,
+                            GREETING:
+                        </p>
+                        <p>WE COMMAND YOU, That you take into your custody the body of Charles R. Robinson.
+                        </p>
 
-                            <p>If he is to be found in your bailiwick, and him safely keep; so that you have him before the
-                                judges of the Switzerland Circuit Court, at the Court House in Vevay, on the first Monday
-                                in May next, to answer unto the State of Indiana on an Indictment for Horse Rcing
-                            </p>
-                            <p>and have you then and there this writ. Witness, IRA N. MALIN, clerk of our said Court at Vevay,
-                                this 13th day of December 1852.
-                            </p>
-                            <p> Ira N. Malin C. S. C. C.
-                            </p>
-                        </div>
+                        <p>If he is to be found in your bailiwick, and him safely keep; so that you have him before the judges
+                            of the Switzerland Circuit Court, at the Court House in Vevay, on the first Monday in May next,
+                            to answer unto the State of Indiana on an Indictment for Horse Racing
+                        </p>
+                        <p>and have you then and there this writ. Witness, IRA N. MALIN, clerk of our said Court at Vevay, this
+                            13th day of December 1852.
+                        </p>
+                        <p> Ira N. Malin C. S. C. C.
+                        </p>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- ===============================================================================
+
+    <!-- ===============================================================================
                                ARREST WARRANT MODAL ENDS HERE
                   ===================================================================================== -->
 
 
-        <!-- jQuery-UI dialog starts here -->
-        <div id="navPopUp" title="Functionality to Come">
-            <p>
-                This link is temporarily disabled while its functionality is developed.
-            </p>
-            <p>
-                Thank you for your interest.
-            </p>
-        </div>
+    <!-- jQuery-UI dialog starts here -->
+    <div id="navPopUp" title="Functionality to Come">
+        <p>
+            This link is temporarily disabled while its functionality is developed.
+        </p>
+        <p>
+            Thank you for your interest.
+        </p>
+    </div>
+    <!-- jQuery-UI dialog ends here -->
 
-        <!-- jQuery-UI dialog ends here -->
 
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
 
-        <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-        <!-- jquery-ui javascript -->
-        <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
 
-        <script src="js/app.js"></script>
+    <!-- jquery-ui javascript -->
+    <script src="js/jquery-ui.min.js"></script>
+
+    <script src="js/app.js"></script>
 </body>
+
+<!-- Sticky footer, page 5, my Treehouse notes, Front End Developement Track -->
+
+<Div class="wrap">
+</Div>
+<!-- /wrap As needed for sticky footer -->
+
+<div class="footer">
+<div class="container">
+    <div class="row ">
+        <div class="col-3 text-right">
+            <p>a</p>
+        </div>
+        <!-- / col-2 -->
+
+        <div class="col-6 text-center">
+                <p>b</p>
+        </div>
+        <!-- / col-2 -->
+
+        <div class="col-3 text-left">
+                <p>c</p>
+        </div>
+        <!-- / col-2 -->
+
+        <!-- <div class="col-2">
+                <p>d</p>
+        </div> -->
+        <!-- / col-2 -->
+
+        <!-- <div class="col-2">
+                <p>e</p>
+        </div> -->
+        <!-- / col-2 -->
+
+        <!-- <div class="col-2">
+                <p>f</p>
+        </div> -->
+        <!-- / col-2 -->
+
+    </div>
+    <!-- / row footer -->
+
+</div>
+<!-- / container -->
+
+</div>
+<!--/ footer -->
 
 </html>
