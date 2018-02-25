@@ -9,7 +9,7 @@ $(document).ready(function () {
         hide: 'drop'
     }); // end PopUp dialog definition
 
-    $('.nav-link, .btn-search').click(function (evt) {
+    $('.nav-link, .btn-search, .bkEmail').click(function (evt) {
         evt.preventDefault();
         $('#navPopUp').dialog('open');
     }); //end nav buttons click event

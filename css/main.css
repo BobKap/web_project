@@ -38,6 +38,10 @@ h2 {
     font-size: 3rem;
 }
 
+/* h6 {
+    display: inline-block;
+} */
+
 .historic-images img {
     max-width: 100%;
     height: auto;
@@ -66,25 +70,16 @@ h2 {
     color: blanchedalmond;
 }
 
-.btn-nav:hover,
-.nav-link:hover {
+.btn-nav:hover, .nav-link:hover {
     background-color: rgb(230, 192, 136);
-    color:  rgb(99, 61, 4);
+    color: rgb(99, 61, 4);
 }
 
-
-.modal-body,
-.nav,
-#navPopUp,
-.footer
- {
+.modal-body, .nav, #navPopUp, .footer {
     background-color: blanchedalmond;
 }
 
-.indictment p,
-.warrant p,
-.theHistory p,
-#navPopUp p {
+.indictment p, .warrant p, .theHistory p, #navPopUp p {
     text-indent: 2.5rem;
     margin: 20px;
 }
@@ -112,6 +107,7 @@ h2 {
 } */
 
 /* rules required by Bootstrap to make image fluid */
+
 .derby-trophy {
     max-width: 100%;
     height: auto;
@@ -119,6 +115,25 @@ h2 {
 
 .footer {
     width: 100%;
+}
+
+.photoCredits {
+    display: inline;
+}
+
+.photoCredits li {
+    list-style-type: none;
+    font-size: .75rem;
+}
+
+.copyrightInfo p {
+    margin: 0;
+    font-size: .85rem;
+}
+
+.moreFun p {
+    font-size: .75rem;
+    margin: 0;
 }
 
 /* To enforce the sticky footer
@@ -130,4 +145,3 @@ h2 {
     width: 6rem;
     height: 12rem;
 } */
-
