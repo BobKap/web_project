@@ -4,6 +4,9 @@ font-family: 'Chewy', cursive;
 font-family: 'Caveat Brush', cursive;
 font-family: 'Carter One', cursive
 */
+html {
+    font-size: 1rem;
+}
 
 body {
     background-color: rgb(228, 208, 167);
@@ -68,6 +71,7 @@ h2 {
 .btn-nav {
     background-color: rgb(99, 61, 4);
     color: blanchedalmond;
+    border-radius: .5rem;
 }
 
 .btn-nav:hover, .nav-link:hover {
@@ -113,9 +117,9 @@ h2 {
     height: auto;
 }
 
-.footer {
+/* .footer {
     width: 100%;
-}
+} */
 
 .photoCredits {
     display: inline;
@@ -145,3 +149,22 @@ h2 {
     width: 6rem;
     height: 12rem;
 } */
+
+/* Media Queries */
+/* @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */

@@ -11,7 +11,7 @@ star-wars-planets.html
 star_wars_planets.html
 
 
-bacon.
+s
 ```
 
 ### index.html
