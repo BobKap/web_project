@@ -7,12 +7,16 @@ $(document).ready(function () {
         resizable: false,
         modal: true,
         hide: 'drop'
-    }); // end PopUp dialog definition
+    }); // end Functionality to Come" PopUp dialog definition
 
-    $('.nav-link, .btn-search, .bkEmail').click(function (evt) {
+    $('.nav-link, .btn-search, .bkEmail, .bobsSite').click(function (evt) {
         evt.preventDefault();
         $('#navPopUp').dialog('open');
-    }); //end nav buttons click event
+    }); //end nav buttons, search button, Bob's Email click event
+
+    $('.input-nav').mousedown(function() {
+        $('#navPopUp').dialog('open');
+    });
 
 
 });  // end ready

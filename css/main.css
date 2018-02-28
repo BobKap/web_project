@@ -13,12 +13,8 @@ body {
 .nav-link {
     color: black;
     font-size: 1.25rem;
-    padding: 0;
+    padding: 8px;
 }
-
-/* .input-nav {
-    width: 40%;
-} */
 
 .banner{
     text-align: center;
@@ -94,9 +90,13 @@ body {
     background-color: blanchedalmond;
 }
 
-.indictment p, .warrant p, .theHistory p, #navPopUp p {
+.indictment p, .warrant p, .theHistory p {
     text-indent: 2.5rem;
     margin: 20px;
+}
+
+#navPopUp p {
+    text-indent: 1.5rem;
 }
 
 .theHistory p::first-letter {
@@ -115,8 +115,7 @@ body {
     padding-top: 9px;
 }
 
-/* rules required by Bootstrap to make image fluid */
-
+/* rule required by Bootstrap to make image fluid */
 .derby-trophy {
     max-width: 100%;
     height: auto;
@@ -148,6 +147,7 @@ body {
 } 
 .footer{
     border-top: 1px solid  rgb(99, 61, 4);
+    width: 100%;
 }
 
 /* Media Query */
