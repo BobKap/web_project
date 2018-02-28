@@ -45,6 +45,7 @@ body {
 .nav {
     border-radius: 1rem;
     padding: 8px;
+    border: 1px solid  rgb(99, 61, 4);
 }
 
 .outlawedH2 {
@@ -145,6 +146,9 @@ body {
 .wrap{
     min-height: calc(100vh-78px);
 } 
+.footer{
+    border-top: 1px solid  rgb(99, 61, 4);
+}
 
 /* Media Query */
 @media (max-width: 768px) {
