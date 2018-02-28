@@ -7,43 +7,50 @@ font-family: 'Carter One', cursive
 html {
     font-size: 1rem;
 }
-
 body {
     background-color: rgb(228, 208, 167);
 }
-
 .nav-link {
     color: black;
     font-size: 1.25rem;
+    padding: 0;
+}
+
+/* .input-nav {
+    width: 40%;
+} */
+
+.banner{
+    text-align: center;
 }
 
 #horsesLogo {
     max-width: 100%;
     height: auto;
-    width: 95%;
+    margin-top: 10px;
+    margin-left: 75px;
 }
 
-h1, h2 {
+.hrhH1 {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 5.5rem;
+    margin-top: 25px;
 }
 
 .tagline {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 12;             
 }
 
 .nav {
     border-radius: 1rem;
+    padding: 8px;
 }
 
-h2 {
+.outlawedH2 {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
 }
-
-/* h6 {
-    display: inline-block;
-} */
 
 .historic-images img {
     max-width: 100%;
@@ -69,9 +76,12 @@ h2 {
 }
 
 .btn-nav {
+    font-size: 1.25rem;
     background-color: rgb(99, 61, 4);
     color: blanchedalmond;
     border-radius: .5rem;
+    padding: 5px;
+
 }
 
 .btn-nav:hover, .nav-link:hover {
@@ -104,12 +114,6 @@ h2 {
     padding-top: 9px;
 }
 
-/* Control the size of the div holding derby program cover 
-.programs {
-    height:50px;
-    width: 50px;
-} */
-
 /* rules required by Bootstrap to make image fluid */
 
 .derby-trophy {
@@ -117,12 +121,9 @@ h2 {
     height: auto;
 }
 
-/* .footer {
-    width: 100%;
-} */
-
 .photoCredits {
-    display: inline;
+    margin-bottom: .75rem;
+    margin-top: .75rem;
 }
 
 .photoCredits li {
@@ -140,31 +141,16 @@ h2 {
     margin: 0;
 }
 
-/* To enforce the sticky footer
+/* To enforce the sticky footer */
 .wrap{
-    min-height: calc(100vh-INSERT HEIGHT OF FOOTER HERE);
-} */
+    min-height: calc(100vh-78px);
+} 
 
-/* .footer-img {
-    width: 6rem;
-    height: 12rem;
-} */
+/* Media Query */
+@media (max-width: 768px) {
+    .hH1 {
+    font-size: 4rem;
+}
 
-/* Media Queries */
-/* @include media-breakpoint-up(sm) {
-    html {
-      font-size: 1.2rem;
-    }
-  }
-  
-  @include media-breakpoint-up(md) {
-    html {
-      font-size: 1.4rem;
-    }
-  }
-  
-  @include media-breakpoint-up(lg) {
-    html {
-      font-size: 1.6rem;
-    }
-  } */
+
+}
