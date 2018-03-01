@@ -48,6 +48,9 @@ body {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
 }
+.outlawCol {
+    padding-bottom: 24px;
+}
 
 .historic-images img {
     max-width: 100%;
@@ -116,9 +119,10 @@ body {
 }
 
 /* rule required by Bootstrap to make image fluid */
-.derby-trophy {
+#derby-trophy {
     max-width: 100%;
     height: auto;
+    width: 50%;
 }
 
 .photoCredits {
@@ -153,8 +157,64 @@ body {
 /* Media Query */
 @media (max-width: 768px) {
     .hrhH1 {
-    font-size: 4rem;
+    font-size: 3.75rem;
+    margin-top: 10px;
+}
+#horsesLogo {
+    margin-top: 10px;
+    margin-left: 15px;
+    max-width: 110%;
+}
+.tagline {
+    font-size: 1.1rem;
+}
+.nav-link {
+    font-size: 1rem;
+    padding: 2px;
+}
+.btn-nav{
+    font-size: .75rem;
+}
+.form-control{     /* To set font-size in search box */
+    font-size: .8rem;
+    line-height: 1rem;
+}
+.outlawedH2 {
+    font-size: 2rem;
+    margin-bottom: none;
+}
+.outlawCol {
+    padding-bottom: 0px;
+}
+.theHistory {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.theHistory p {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: .1rem;
+    text-indent:.75rem;
+    font-size: .75rem;
+}
+.historic-images img {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+.figure-caption {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    padding-top: 0px;
+}
+
+.button-documents {
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(99, 61, 4, 0.6);
+    font-size: .75rem;
 }
 
 
-}
+
+
+
+} /* End media query 
+
