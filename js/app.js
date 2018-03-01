@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     $('.input-nav').mousedown(function() {
         $('#navPopUp').dialog('open');
-    });
+    }); // end search input popup
 
 
 });  // end ready
