@@ -48,6 +48,9 @@ body {
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
 }
+.outlawCol {
+    padding-bottom: 24px;
+}
 
 .historic-images img {
     max-width: 100%;
@@ -153,8 +156,38 @@ body {
 /* Media Query */
 @media (max-width: 768px) {
     .hrhH1 {
-    font-size: 4rem;
+    font-size: 3.75rem;
+    margin-top: 10px;
+}
+#horsesLogo {
+    margin-top: 10px;
+    margin-left: 15px;
+    max-width: 110%;
+}
+.tagline {
+    font-size: 1.2rem;
+}
+.nav-link {
+    font-size: 1rem;
+    padding: 2px;
+}
+.btn-nav{
+    font-size: .75rem;
+}
+.form-control{     /* To set font-size in search box */
+    font-size: .8rem;
+    line-height: 1rem;
+}
+.outlawedH2 {
+    font-size: 2rem;
+    margin-bottom: none;
+}
+.outlawCol {
+    padding-bottom: 0px;
 }
 
 
-}
+
+
+} /* End media query 
+
