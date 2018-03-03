@@ -64,9 +64,6 @@ body {
 .outlawedH2 {               /* h2 */
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
-}
-
-.outlawCol {                /* div for h2 */
     padding-bottom: 24px;
 }
 
