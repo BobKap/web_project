@@ -4,7 +4,6 @@ font-family: 'Chewy', cursive;
 font-family: 'Caveat Brush', cursive;
 font-family: 'Carter One', cursive
 */
-
 html {
     font-size: 1rem;
 }
@@ -13,10 +12,31 @@ body {
     background-color: rgb(228, 208, 167);
 }
 
-.nav-link {
+.nav {                      /* nav bar */
+    border-radius: 1rem;
+    padding: 8px;
+    border: 1px solid rgb(99, 61, 4);
+    margin-top: 24px;
+}
+
+.nav-link {                 /* anchors for nav  */
     color: black;
     font-size: 1.25rem;
     padding: 8px;
+    border-radius: 5px;
+}
+
+.btn-nav {              /* search button on nav bar  */
+    font-size: 1.25rem;
+    background-color: rgb(99, 61, 4);
+    color: blanchedalmond;
+    border-radius: .5rem;
+    padding: 5px;
+}
+
+.btn-nav:hover, .nav-link:hover {
+    background-color: rgb(230, 192, 136);
+    color: rgb(99, 61, 4);
 }
 
 .banner {
@@ -30,34 +50,27 @@ body {
     margin-left: 75px;
 }
 
-.hrhH1 {
+.hrhH1 {                    /* h1 */
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 5.5rem;
     margin-top: 25px;
 }
 
-.tagline {
+.tagline {                  /* "Have fun learning etc." */
     font-size: 1.75rem;
     margin-bottom: 12;
 }
 
-.nav {
-    border-radius: 1rem;
-    padding: 8px;
-    border: 1px solid rgb(99, 61, 4);
-    margin-top: 24px;
-}
-
-.outlawedH2 {
+.outlawedH2 {               /* h2 */
     font-family: 'Caveat Brush', Arial, sans-serif;
     font-size: 3rem;
 }
 
-.outlawCol {
+.outlawCol {                /* div for h2 */
     padding-bottom: 24px;
 }
 
-.historic-images img {
+.historic-images img {              /* 1852 documents */
     max-width: 100%;
     height: auto;
     border: 2px inset rgb(160, 120, 41);
@@ -66,7 +79,15 @@ body {
     box-shadow: 7px 9px 9px rgba(0, 0, 0, .5);
 }
 
-.button-documents {
+.figure-caption {                /* Captions under 1852 documents */             
+    font-family: 'Caveat Brush', Arial, sans-serif;
+    color: black;
+    font-size: 1.75rem;
+    line-height: 1.7rem;
+    padding-top: 9px;
+}
+
+.button-documents {             /* Buttons under 1852 documents */
     background-color: blanchedalmond;
     border: 1px solid rgb(99, 61, 4);
     border-radius: 5px;
@@ -75,29 +96,15 @@ body {
     font-family: Arial;
     font-size: 1rem;
 }
-
-.button-documents:hover {
+.button-documents:hover {               
     cursor: pointer;
 }
 
-.btn-nav {
-    font-size: 1.25rem;
-    background-color: rgb(99, 61, 4);
-    color: blanchedalmond;
-    border-radius: .5rem;
-    padding: 5px;
-}
-
-.btn-nav:hover, .nav-link:hover {
-    background-color: rgb(230, 192, 136);
-    color: rgb(99, 61, 4);
-}
-
-.modal-body, .nav, #navPopUp, .footer {
+.modal-body, .nav, #navPopUp, .footer {      /* Set background for modals, nav bar and footer */
     background-color: blanchedalmond;
 }
 
-.indictment p, .warrant p, .theHistory p {
+.indictment p, .warrant p, .theHistory p {      /* Set indent for paragraphs */
     text-indent: 2.5rem;
     margin: 20px;
 }
@@ -106,36 +113,26 @@ body {
     text-indent: 1.5rem;
 }
 
-.theHistory p::first-letter {
+.theHistory p::first-letter {    /* Set size of first letter of each <p> in Latin text. */
     font-size: 1.4rem;
 }
 
-.container {
+.container {                 /* Set max-width of page. */
     max-width: 1350px;
 }
 
-.figure-caption {
-    font-family: 'Caveat Brush', Arial, sans-serif;
-    color: black;
-    font-size: 1.75rem;
-    line-height: 1.7rem;
-    padding-top: 9px;
-}
-
-/* rule required by Bootstrap to make image fluid */
-
-#derby-trophy {
+#derby-trophy {             /* rule required by Bootstrap to make image fit and fluid */
     max-width: 100%;
     height: auto;
     width: 50%;
 }
 
-.photoCredits {
+.photoCredits {                         /* Style <ul> */
     margin-bottom: .75rem;
     margin-top: .75rem;
 }
 
-.photoCredits li {
+.photoCredits li {                       /* Style <li> */
     list-style-type: none;
     font-size: .75rem;
 }
@@ -150,9 +147,7 @@ body {
     margin: 0;
 }
 
-/* To enforce the sticky footer */
-
-.wrap {
+.wrap {                             /* To enforce the sticky footer */
     min-height: calc(100vh-78px);
 }
 
@@ -161,42 +156,40 @@ body {
     width: 100%;
 }
 
-/* Start Media Web Query */
-@media screen and (max-width: 768px) {
-    /* Media Web Query */
+@media screen and (max-width: 768px) {          /* Start Media screen Query */
     .hrhH1 {
         font-size: 3.75rem;
         margin-top: 10px;
     }
     #horsesLogo {
-        /* Media Web Query */
+        /* Media Screen Query */
         margin-top: 10px;
         margin-left: 15px;
         max-width: 110%;
     }
     .tagline {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: 1.1rem;
     }
     .nav {
-        /* Media Web Query */
+        /* Media Screen Query */
         margin-top: 12px;
         padding-top: 0px;
         padding-bottom: 0px;
     }
     .nav-link {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .7rem;
         line-height: 28.5px;
     }
     .btn-nav {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .6rem;
         padding-top: 0px;
         padding-bottom: 0px;
     }
     .form-control {
-        /* Media Web Query */
+        /* Media Screen Query */
         /* To set font-size in search box */
         font-size: .65rem;
         line-height: .5rem;
@@ -204,21 +197,21 @@ body {
         padding-bottom: 0px;
     }
     .outlawedH2 {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: 2rem;
         margin-bottom: none;
     }
     .outlawCol {
-        /* Media Web Query */
+        /* Media Screen Query */
         padding-bottom: 0px;
     }
     .theHistory {
-        /* Media Web Query */
+        /* Media Screen Query */
         padding-right: 0px;
         padding-left: 0px;
     }
     .theHistory p {
-        /* Media Web Query */
+        /* Media Screen Query */
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 15px;
@@ -227,39 +220,39 @@ body {
         font-size: .64rem;
     }
     .historic-images img {
-        /* Media Web Query */
+        /* Media Screen Query */
         box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
     }
     .figure-caption {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: 1.1rem;
         line-height: 1.1rem;
         padding-top: 0px;
     }
     .button-documents {
-        /* Media Web Query */
+        /* Media Screen Query */
         margin-top: 15px;
         box-shadow: 0 0 10px rgba(99, 61, 4, 0.6);
         font-size: .75rem;
     }
     .theHistory p::first-letter {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .9rem;
     }
     .photoCredits li {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .55rem;
     }
     .copyrightInfo p {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .65rem;
     }
     .moreFun p {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .65rem;
     }
     .moreFun a {
-        /* Media Web Query */
+        /* Media Screen Query */
         font-size: .55rem;
     }
 }
@@ -267,24 +260,29 @@ body {
 /* Start Media Print Query */
 @media print {
    .nav a, .nav form {
+       /* Media Print Query */
        display: none;  
    }
    .nav {
+       /* Media Print Query */
        border:none;
    }
    .tagline {
+       /* Media Print Query */
        font-size: 1.4rem; 
    }
    .button-documents {
+       /* Media Print Query */
        display: none;
    }
    #horsesLogo {
+       /* Media Print Query */
        margin-left: 0px;
        margin-top: 40px;
    }
-
-}
-
 /* End Media Print Query */
 
+}
 /* End media queries */
+
+
