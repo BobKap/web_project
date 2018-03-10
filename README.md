@@ -28,6 +28,10 @@ The class(es) I created are:
 20. .moreFun p   Style the right side of the footer.
 21. .wrap   Enforces the sticky footer.
 22. .tripleCrownPhotos Column class to wrap photos to separate row at 768px breakpoint.
+23. .theHistory p:last-child   To remove the bottom margin from the last <p> of the latin text in the 768px @media query.
+24. .tripleCrownPhotos .figure   To adjust sizes of winner's circle photos in the 768px @media query.
+25. .secretariatCaption      To move caption to right in 768px @media query.
+
     
 
 ## Custom JavaScript Functions
