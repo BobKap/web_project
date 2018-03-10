@@ -209,12 +209,17 @@ body {
     }
     .theHistory p {
         /* Media Screen Query */
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 30px;
         margin-bottom: 15px;
         margin-top: 0px;
         text-indent: .75rem;
-        font-size: .64rem;
+        font-size: 1rem;
+    }
+
+    .historic-images {
+         /* Media Screen Query */
+        padding-left: 30px;  
     }
     .historic-images img {
         /* Media Screen Query */
@@ -222,15 +227,20 @@ body {
     }
     .figure-caption {
         /* Media Screen Query */
-        font-size: 1.1rem;
-        line-height: 1.1rem;
+        font-size: 1.25rem;
+        line-height: 1.25rem;
         padding-top: 0px;
     }
     .button-documents {
         /* Media Screen Query */
         margin-top: 15px;
         box-shadow: 0 0 10px rgba(99, 61, 4, 0.6);
-        font-size: .75rem;
+        font-size: 1rem;
+    }
+
+    #derby-trophy {
+         /* Media Screen Query */
+         width: 65%;
     }
     .theHistory p::first-letter {
         /* Media Screen Query */

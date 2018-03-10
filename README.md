@@ -27,6 +27,7 @@ The class(es) I created are:
 19. .copyrightInfo p   Style the copyright info.
 20. .moreFun p   Style the right side of the footer.
 21. .wrap   Enforces the sticky footer.
+22. .tripleCrownPhotos Column class to wrap photos to separate row at 768px breakpoint.
     
 
 ## Custom JavaScript Functions
