@@ -132,6 +132,10 @@ body {
     font-size: 1.4rem;
 }
 
+.smallLogo {
+    display: none;
+}
+
 .container {
     /* Set max-width of page. */
     max-width: 1350px;
@@ -245,6 +249,21 @@ body {
         /* Media Screen Query */
         margin-bottom: 0px;
     }
+    .smallLogo {
+        /* Media Screen Query */
+        display: block;
+        width: 55%;
+        margin-left: 70px;
+        height: auto;
+        margin-bottom: 12px;
+        border: none !important;
+        background-color:  rgb(228, 208, 167) !important;
+        padding: none !important;
+        box-shadow: none !important;
+        opacity: .75;
+
+    }
+
     .tripleCrownPhotos {
         /* Media Screen Query */
         text-align: center;
@@ -338,13 +357,11 @@ body {
         margin-left: 0px;
         margin-top: 40px;
     }
-
     .tripleCrownPhotos .figure {
         /* Media Print Query */
         max-width: 45%;
         margin-bottom: 20px;
     }
-
     /* End Media Print Query */
 }
 
