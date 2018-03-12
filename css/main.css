@@ -161,11 +161,13 @@ body {
 }
 
 .copyrightInfo p {
+    /* Style copyright info */
     margin: 0;
     font-size: .85rem;
 }
 
 .moreFun p {
+    /* Style More Fun links */
     font-size: .75rem;
     margin: 0;
 }
@@ -252,81 +254,94 @@ body {
     .smallLogo {
         /* Media Screen Query */
         display: block;
-        width: 55%;
-        margin-left: 70px;
+        width: 70%;
+        margin-left: 45px;
         height: auto;
-        margin-bottom: 12px;
+        margin-bottom: 17px;
         border: none !important;
         background-color:  rgb(228, 208, 167) !important;
         padding: none !important;
         box-shadow: none !important;
-        opacity: .75;
-
+        opacity: .85;
     }
 
     .tripleCrownPhotos {
         /* Media Screen Query */
         text-align: center;
-        padding-right: 45px;
+        padding-right: 70px;
         margin-top: 10px;
     }
+
     .tripleCrownPhotos .figure {
         /* Media Screen Query */
         max-width: 45%;
         margin-bottom: 20px;
     }
+
     #whirlaway {
         /* Media Screen Query */
         margin-right: 20px;
     }
+
     #secretariat {
         /* Media Screen Query */
         margin-left: 20px;
     }
+
     .secretariatCaption {
         /* Media Screen Query */
         padding-left: 37px;
     }
+
     .historic-images {
         /* Media Screen Query */
         padding-left: 30px;
     }
+
     .historic-images img {
         /* Media Screen Query */
         box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
     }
+
     .figure-caption {
         /* Media Screen Query */
         font-size: 1.25rem;
         line-height: 1.25rem;
         padding-top: 0px;
     }
+
     .button-documents {
         /* Media Screen Query */
         margin-top: 15px;
         box-shadow: 0 0 10px rgba(99, 61, 4, 0.6);
         font-size: 1rem;
     }
+
     #derby-trophy {
         /* Media Screen Query */
         width: 65%;
     }
+
     .theHistory p::first-letter {
         /* Media Screen Query */
         font-size: .9rem;
     }
+
     .photoCredits li {
         /* Media Screen Query */
         font-size: .55rem;
     }
+
     .copyrightInfo p {
         /* Media Screen Query */
         font-size: .65rem;
     }
+
     .moreFun p {
         /* Media Screen Query */
         font-size: .65rem;
     }
+
     .moreFun a {
         /* Media Screen Query */
         font-size: .55rem;
@@ -343,6 +358,7 @@ body {
     .nav {
         /* Media Print Query */
         border: none;
+        margin-top: 0px;
     }
     .tagline {
         /* Media Print Query */
@@ -364,5 +380,4 @@ body {
     }
     /* End Media Print Query */
 }
-
 /* End media queries */
